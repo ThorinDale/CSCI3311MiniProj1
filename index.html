@@ -1,0 +1,265 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Mini-Project 1</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container heading">
+        <h1>Good and Bad Visualizations</h1>
+        <h4>By Darren Zheng, Laura Pavlosky, Lindsay Penkrat, Kyu-Hyun Lee</h4>
+    </div>
+
+    <div class="container" id="migrationWaves">
+        <div class="row">
+            <img class="image" src="https://iibawards-prod.s3.amazonaws.com/projects/images/000/004/191/large.png?1568925084">
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Migration Waves</h3>
+                <h6 class="card-subtitle mb-2 text-muted">By National Geographic</h6>
+                <p>
+                    This visualization is for anyone interested in the migration waves across the globe. 
+                    The message tells the reader which countries experience high emigration and high immigration over several decades. 
+                    It also shows when there was an internal national conflict that caused many people to emigrate, and indicates to which countries those who fled the conflicts immigrated. 
+                    Another question that one could consider is; why there was high emigration in one country and high immigration is another.  
+                    The data encoded is the number of emigrants and immigrants, and from and to which countries. 
+                    It also encodes time, separated by decades.
+                </p>
+                <h5 class="card-subtitle mb-2 text-muted"><i>How does the visualization encode the data?</i></h5>
+                <p>
+                    The visualization is encoded by using a horizontal stream-like graph. 
+                    It utilizes spatial perception to express the number of people traveling by encoding that data by area. 
+                    The graph also uses color to encode another qualitative data, namely immigration-emigration. 
+                    Since they are opposites, the choice to use black and white makes perfect sense. 
+                    Additionally, it uses symbols to encode a ‘cause and effect’ type of change. 
+                    For example, around 2012, there was a major conflict in Syria, causing millions of refugees to flee.
+                    Where did this wave of refugees go? The visualization shows that those refugees went to Germany. 
+                    This is indicated by a line that runs from the Syria wave to the Germany wave. 
+                    The choice to measure immigration numbers on the x-axis is also intuitive to our imagination of a number line, with the center being 0 and the right indicating positive number and the left indicating negative numbers. 
+                    (Emigration is encoded as a negative value while immigration is encoded as a positive value).
+                </p>
+                <h5 class="card-subtitle mb-2 text-muted"><i>The Five Principles of Visualization</i></h5>
+                <p>
+                    It cannot be confirmed whether the numbers are truthful without cross-referencing data with the immigration office. 
+                    Undocumented immigration is probably not included in the data. It is quite functional in looking up statistics of immigration and emigration. 
+                    It is definitely beautiful. The color choice and usage of the x-axis are intuitive. 
+                    The lines that run from one emigration country to another immigration country creates a simple symmetry and answers the question “where did the refugees go?” 
+                    It follows the law that nothing can be created nor destroyed. It is both insightful and enlightening because it shows the ‘cause and effect’ in the visualization, along with a short description around the graph that further explains immigration trends. 
+                </p>
+                <h5 class="card-subtitle mb-2 text-muted"><i>Why is this visualization good?</i></h5>
+                <p>
+                    Considering the current public opinion on immigration, it is extremely insightful to visualize immigration trends across the globe. 
+                    Immigration is a controversial topic that forces us to evaluate the practical resources and effects of allowing high immigration and questions our morals and willingness to help the ‘other’. 
+                    With many voices rising across the Western world that speak against immigration, society needs to lead a discussion on immigration. 
+                    One step is to visualize true data.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="stolen">
+        <div class="row">
+            <div class="col">
+                <img class="image" src="aiyana_stanley-jones.png">
+            </div>
+            <div class="col">
+                <img class="image" src="gregory_gunn.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img class="image" src="stolen.png">
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Stolen</h3>
+                        <h6 class="card-subtitle mb-2 text-muted">By Adrian Brandon</h6>
+                        <p>
+                            The audience is anyone. 
+                            Adrian Brandon, the creator of this visualization writes: 
+                            “This series is dedicated to the many black people that were robbed of their lives at the hands of the police… 
+                            As a person of color, I know that my future can be stolen from me if I’m driving with a broken taillight, 
+                            or playing my music too loud, or reaching for my phone at the wrong time. 
+                            So for each of these portraits I played with the harsh relationship between time and death. 
+                            I want the viewer to see how much empty space is left in these lives, stories that will never be told, space that can never be filled. 
+                            This emptiness represents holes in their families and our community, who will be forever stuck with the question, 
+                            “who were they becoming?” This series touches on grief and the unknown.
+                        </p>
+                        <h5 class="card-subtitle mb-2 text-muted"><i>What data and how is it encoded?</i></h5>
+                        <p>
+                            The data encoded is public data of the years of life of a handful of black people who were killed by police. 
+                            The visualization uses area marks to show the years of life of the murdered black people. 
+                            It uses color and area as channels to encode the years of the life the black people had. 
+                            The absence of color shows the years of life they never got to have. 
+                            The artist colors in a portrait of the deceased for one minute for every year of their life.  
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-subtitle mb-2 text-muted">The Five Principles of Visualization</h5>
+                    <p>
+                        <div>
+                            <strong>Truthful - </strong>
+                            The information presented is public record so it is truthful and disclosed. 
+                            However, it does not provide ALL available data of every black person murdered by police through time, 
+                            we are aware of it and it is a relevant sample to get across a message. 
+                        </div>
+                        <div>
+                            <strong>Functional - </strong>
+                            The data is clearly readable, as the precise age of death of each person is given next to their portrait. 
+                            However, the author doesn’t show all the portraits and age data all at once, 
+                            he shows the data of the individual portrait when clicked on, which could be a downside. 
+                        </div>
+                        <div>
+                            <strong>Beautiful - </strong>
+                            The visualization is extremely beautiful. 
+                            Adrian Brandon is obviously a talented artist who portrays the deceased in a powerful way that amplifies 
+                            his message about the beauty of life and how it is taken away. 
+                            There is no chart junk, and the designs are simple yet compelling. 
+
+                        </div>
+                        <div>
+                            <strong>Insightful - </strong>
+                            The visualization shows a meaningful pattern that many black lives are being taken by police and a lot of them are extremely young. 
+                            It gets the viewer to think more about this issue and would probably prompt them to do more research 
+                            about related topics such as the “Black Lives Matter” movement. 
+                        </div>
+                        <div>
+                            <strong>Enlightening - </strong>
+                            The visualization is extremely enlightening. The way the artist portrays the lives of those killed by 
+                            police makes us think about how much of their lives they never got the chance to live. 
+                            It makes the viewer feel something. Especially when watching the video of the artist drawing the portraits 
+                            we are left with a feeling of emptiness when the drawing is suddenly stopped at minute (age) of their death. 
+
+                        </div>
+                    </p>
+                    <h5 class="card-subtitle mb-2 text-muted">Why is this visualization good?</h5>
+                    <p>
+                        This is an amazing visualization. It was selected by the creator of visualizingdata.com as one of the top visualizatoins 
+                        on the web discovered in June 2020. I believe the reason being is that where this visualization lacks technicality 
+                        it makes up for in the extreme emotional response felt by the viewers. Looking at each of the faces in the portrait the 
+                        viewer develops a connection to the life of each person. It’s so powerful it can really prompt the audience to do something 
+                        about the issue it portrays by possibly doing research or making a change in their own opinions/habits/beliefs which is one 
+                        of the most important things a visualization can do. 
+                    </p>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+
+    <div class="container" id="portfolio">
+        <div class="row">
+            <img class="image" src="https://junkcharts.typepad.com/.a/6a00d8341e992c53ef0264e2e2f26e200d-pi">
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Investment Porfolio</h3>
+                <h6 class="card-subtitle mb-2 text-muted">By Charles Schwab</h6>
+                <p>
+                    This visualization is for those who are interested in building an investment portfolio 
+                    and those who are interested in seeing a portfolio breakdown in categories of different investments.
+                    There are more questions than messages in this visualization. 
+                    It is not immediately clear that the 3D pie charts are conveying a before/after image. 
+                    It is also hard to interpret the data accurately with 3D models. 
+                    It conveys the message that stock prices have dropped following market correction. 
+                    Data encoded are the stock, bond, cash investment, and total values in dollars. 
+                    It is also encoded in percentages and displayed in a pie chart. 
+                    The visualization is encoded using a pie chart. Using a pie chart takes advantage of our vision’s spatial 
+                    interpretation to see the size difference between the categories of investments. 
+                    Almost none of the five principles are applied in this visualization. 
+                    The color-code might make the visualization slightly “beautiful.” 
+                </p>
+                <h5 class="card-subtitle mb-2 text-muted">Why is this visualization bad?</h5>
+                <p>
+                    It is bad for many reasons. The visualization only shows the portfolio values in two time points (Zeitpunkte). 
+                    It would be much more helpful to show a trend over an extended time period, since the description says 
+                    “after a rough few months.” A pie chart encodes the data in percentages, which is extremely misleading. 
+                    By looking at the actual values of the different portfolio categories, one can see that the only value 
+                    that changed was the stock prices. However, because the pie chart encodes percentages, a change in just one category 
+                    will change the percentage of every category, even though the actual values of bonds and cash investments haven’t changed. 
+                    3D depiction is also misleading. The percentages are expressed in the percent of 360 degrees to make up the pie chart. 
+                    The 2D areas would be a little more proportional to the percentages, but the heights of each category is also proportionalized, 
+                    resulting in a “double-count” of the percent differences.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img class="image" src="portfolio_redesign1.jpg">
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            In this redesign, (which was suggested by the creator of the original blog post) I used a line graph for each category of the portfolio. 
+                            Each asset type is color coded as well. In this visualization, it becomes clear which of the asset types contribute to the change in portfolio value 
+                            and shows that the other asset types are constant. The line graph displays a clearer trend. My redesign does not utilize 3D pie charts, 
+                            which are misleading. The line graph, (if more data were available) could also show the fluctuations of the asset types and total portfolio value. 
+                            This redesign is easier to comprehend than the original 3D pie chart. It improves the functional, insightfulness, and enlightening aspects of a good visualization. 
+                            The tradeoff made in this redesign is the visual appeal of a pie chart, replaced with simplistic lines. 
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img class="image" src="portfolio_redesign2.png">
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            In the second redesign, a stacked bar chart was used to encode the asset types and total portfolio value. 
+                            This design allows easier comparison of the whole portfolio value between the starting portfolio and the 
+                            after-market correction value. Usually, it is harder to compare the parts (asset types) against other parts 
+                            of another stacked bar, but in this case, but starting the cash investment and bonds at the same point, 
+                            a viewer can tell that those asset types have maintained the same value, and that the only asset type that 
+                            changed was the stock value. The tradeoff made in this redesign is the ‘beauty’ of the visualization. 
+                            The redesign is not a 3D pie chart, which may be more aesthetically pleasing to the eye.  
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img class="image" src="portfolio_redesign3.png">
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <p>
+                            In the third redesign, a streamgraph was used to encode the data. By using a streamgraph, 
+                            it shows the fluctuations of asset type values over time. Compared to the original visualization, 
+                            each asset type is drawn on its own line so the change of value of another asset type does not visually 
+                            affect the asset value of another type. The biggest improvement with the streamgraph is that it can easily 
+                            show fluctuation over time, and the time variable is shown as a fluid data across the graph, which is much 
+                            harder to show on a pie chart because a pie chart can show data at one time point. If the pie chart design 
+                            attempts to show changes in data through time, it would need multiple pie charts. The tradeoff with this 
+                            visualization is that it is difficult to evaluate part-over-whole comparisons. In the streamgraph, all asset 
+                            types start from $0 at the origin of the graph. In the pie chart and the stacked bar graph, the different 
+                            asset types have a starting point that builds on top of another asset type, making it easier to make 
+                            part-over-whole comparisons. However, there is an upside to this design as well. It is easier to find the 
+                            difference in value between the different asset types since they are all graphed from the 0 origin.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  <!-- <script src="js/scripts.js"></script> -->
+</body>
+</html>
